@@ -1,0 +1,23 @@
+apiVersion: ai-gateway.deere.com/v1
+kind: Registration
+metadata:
+  name: agentic-land-dashboard # must be a globally unique name, lowercase, a-z, 0-9, and -.
+  applicationService: fy25-isg-761-1131-geospatial-landdashboard # the name of your application service.
+content:
+  spec:
+    compliance:
+      generativeAITermsOfUseRevision: APR2025 # See https://data.deere.com/ai/legal to make sure you understand the terms of use.
+      compliesWithGenerativeAITermsOfUse: yes
+    description: Using LLMs and agentic workflows to intelligently answer Land dashboard queries, in a chat-like structure. Integration with Databricks Apps and Streamlit. # verbose description of your application and usage of AI for data processing.
+    maxGicpClassification: Company Use # highest level of GICP you plan to use with AI.
+    oauthConfigs:
+      - oauthClientId: 0oa1526kng8iIRuMQ1t8 # the Okta client ID you created for your application.
+        oauthDomain: sso.johndeere.com
+    owners:
+      - email: saeedarifeen2@johndeere.com
+    providers:
+      - provider: openai
+        models:
+        - modelId: gpt-4o-mini-2024-07-18 # any of the models available to use (refer to the spec).
+        - modelId: gpt-4o-2024-11-20
+        # - modelId: gpt-image-1

@@ -1,0 +1,3 @@
+component_name: "fy25-isg-761-1131-geospatial-landdashboard"
+repo_type: "experimental"
+description: "this is a repository that contains code for fall '25 hackathon regarding a custom, agentic, LLM based Streamlit land dashboard with connectivity to Databricks"

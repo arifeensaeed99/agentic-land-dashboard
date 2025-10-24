@@ -1,6 +1,9 @@
+# agentic-land-dashboard
+A custom, agentic Land Dashboard in Streamlit (Python), interfacing with Databricks Apps and DeereAI Gateway. For Hackathon Fall 2025.
+
 # 💬 Chatbot template
 
-A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
+A simple Streamlit app that shows how to build a chatbot using DeereAI's OpenAI gateway.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
 
